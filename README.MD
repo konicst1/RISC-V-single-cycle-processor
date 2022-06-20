@@ -1,4 +1,9 @@
-This implementation of uses the RISC-V ISA, version RV32I. It is a 32-bit architecture and implements the following subset of RV32I instructions:
+This CPU implementation uses the RISC-V ISA, version RV32I. It is a 32-bit architecture and implements the following subset of RV32I instructions:
 
-add, addi, and, sub, bne, beq, lw, sw, slli, srai, srli, slt, lui, jal, jalr
-mv, nop, j, jr, la, ret
+_**add, addi, and, sub, slli, srai, srli, slt**_
+
+_**bne, beq, , jal, jalr**_
+
+_**lw, sw, lui**_
+
+_**mv, nop, j, jr, la, ret**_
